@@ -15,9 +15,9 @@ const { addBalance } = require("./lib/limit.js");
 const { smsg, formatp, tanggal, GIFBufferToVideoBuffer, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, fetchBuffer } = require('./lib/myfunc')
 const _ = require("lodash");
 const yargs = require("yargs/yargs");
-const kaitime = moment.tz('Asia/Kolkata').format('HH:mm:ss');
-const kaidate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss');
+const kaitime = moment.tz('Africa/Lome').format('HH:mm:ss');
+const kaidate = moment.tz('Africa/Lome').format('DD/MM/YYYY');
+const time2 = moment().tz('Africa/Lome').format('HH:mm:ss');
 const currentDate = new Date();
 const options = { weekday: 'long' }; // Specify 'long' to get the full day name
 const currentDay = new Intl.DateTimeFormat('en-US', options).format(currentDate);
@@ -169,8 +169,8 @@ let videox = JSON.parse(fs.readFileSync('./src/video.json'))
 global.db = JSON.parse(fs.readFileSync('./src/database.json'))
 let _sewa = require("./lib/sewa");
 const sewa = JSON.parse(fs.readFileSync('./database/sewa.json'))
-const time = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
-const ucap = moment(Date.now()).tz('Asia/Kolkata').locale('id').format('a')
+const time = moment.tz('Africa/Lome').format('DD/MM HH:mm:ss')
+const ucap = moment(Date.now()).tz('Africa/Lome').locale('id').format('a')
 var buln = ['/01/', '/02/', '/03/', '/04/', '/05/', '/06/', '/07/', '/08/', '/09/', '/10/', '/11/', '/12/'];
 var myHari = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 var tgel = new Date();
@@ -2747,7 +2747,7 @@ Typed *surrender* to surrender and admited defeat`
           } else {
             loldd = metadata.owner
           }
-          teks += `\n\nName : ${metadata.subject ? metadata.subject : "undefined"}\nOwner : ${loldd ? '@' + loldd.split("@")[0] : "undefined"}\nID : ${metadata.id ? metadata.id : "undefined"}\nMade : ${metadata.creation ? moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss') : "undefined"}\nMember : ${metadata.participants.length ? metadata.participants.length : "undefined"}`
+          teks += `\n\nName : ${metadata.subject ? metadata.subject : "undefined"}\nOwner : ${loldd ? '@' + loldd.split("@")[0] : "undefined"}\nID : ${metadata.id ? metadata.id : "undefined"}\nMade : ${metadata.creation ? moment(metadata.creation * 1000).tz('Africa/Lome').format('DD/MM/YYYY HH:mm:ss') : "undefined"}\nMember : ${metadata.participants.length ? metadata.participants.length : "undefined"}`
         }
         A17.sendTextWithMentions(m.chat, teks, m)
       }
@@ -3581,7 +3581,7 @@ Typed *surrender* to surrender and admited defeat`
             if (anu1 == '401' || anu1.status.length == 0) {
               nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
             } else {
-              nomerny += `🪄 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n🔹 *Bio :* ${anu1.status}\n🔸 *Updated On :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+              nomerny += `🪄 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n🔹 *Bio :* ${anu1.status}\n🔸 *Updated On :* ${moment(anu1.setAt).tz('Africa/Lome').format('HH:mm:ss DD/MM/YYYY')}\n\n`
             }
           } catch {
             nowhatsapp += `${number0}${i}${number1}\n`
@@ -4372,7 +4372,7 @@ Typed *surrender* to surrender and admited defeat`
 
         const apiKey = 'ugce43VIO63s8gQhcQ7Ts2DHQo1Srcchdh9mgI2S'; // Replace with your actual NASA API key // You can use it.
         const moment = require('moment'); // Import moment library here
-        const timeZone = 'Asia/Kolkata'; // Set desired timezone.
+        const timeZone = 'Africa/Lome'; // Set desired timezone.
 
         const currentDate = moment().tz(timeZone).format('YYYY-MM-DD'); // Initialize currentDate here
 
