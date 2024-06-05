@@ -190,7 +190,7 @@ npm i -g forever && forever index.js && forever save && forever logs
 - [Download Libwebp](https://developers.google.com/speed/webp/download)
 
 ```cmd
-> git clone https://github.com/Kai0071/A17.git
+> git clone https://github.com/Htker/A17.git
 ```
 ```
 > cd A17
