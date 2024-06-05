@@ -163,7 +163,7 @@ pkg install wget
 pkg install imagemagick -y
 ```
 ```
-git clone https://github.com/Kai0071/A17
+git clone https://github.com/Htker/A17
 ```
 ```
 cd A17
