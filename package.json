@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kai0071/A17.git"
+        "url": "git+https://github.com/Htker/A17.git"
     },
     "keywords": [
         "md-bot"
@@ -20,9 +20,9 @@
     "author": "Kai",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Kai0071/A17/issues"
+        "url": "https://github.com/Htker/A17/issues"
     },
-    "homepage": "https://github.com/Kai0071/A17#readme",
+    "homepage": "https://github.com/Htker/A17#readme",
     "devDependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
