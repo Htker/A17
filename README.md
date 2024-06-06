@@ -52,7 +52,7 @@
 <h2 align="center"> 🔰 Tap Here To Fork 🔰 </h2>
 
 <h2 align="center">
-  <a href="https://github.com/Kai0071/A17/fork">
+  <a href="https://github.com/Htker/A17/fork">
     <img src="https://img.shields.io/badge/FORK A17 MD-h?color=white&style=for-the-badge&logo=stackshare" />
   </a>
 </h2>
