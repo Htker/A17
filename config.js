@@ -26,7 +26,7 @@ global.github = "https://github.com/Htker/A17";
 
 
 // Default prefix
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
+global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["!"];
 
 
 // Owner information
@@ -36,7 +36,7 @@ global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["+
 global.OwnerName = process.env.OWNER_NAME || "EveHt";
 global.BotName = process.env.BOT_NAME || "A17";
 global.packname = process.env.PACK_NAME || "A17 Bot";
-global.author = "By: Eve";
+global.author = "By: Eve Ht";
 global.BotSourceCode = "https://github.com/Htker/A17";
 
 
